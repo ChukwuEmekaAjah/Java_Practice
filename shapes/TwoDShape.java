@@ -1,9 +1,9 @@
 package shapes;
 
-interface TwoDShape{
-	double width = 0;
-	double height = 0;
+public interface TwoDShape{
 	double area();
 	double perimeter();
-	abstract String details();
+	static void details(){
+		return;
+	};
 }

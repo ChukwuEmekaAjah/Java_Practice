@@ -1,15 +1,15 @@
 package shapes;
 
-class Rectangle implements TwoDShape{
+class Square implements TwoDShape{
 	double width;
 	double height;
-	Rectangle(){
+	Square(){
 		this.width = 0;
 		this.height = 0;
 	}
-	Rectangle(double w, double h){
+	Square(double w){
 		this.width = w;
-		this.height = height;
+		this.height = w;
 	}
 
 	public double area(){
@@ -21,6 +21,6 @@ class Rectangle implements TwoDShape{
 	}
 
 	public static void details(){
-		System.out.println("A rectangle has 4 sides for which opposite sides are equal");
+		System.out.println("A square has 4 sides for which all sides are equal");
 	}
 }
